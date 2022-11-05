@@ -1,0 +1,20 @@
+#characters-list{
+  display: flex;
+  background-color: blue;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+}
+h3{
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.image-box{
+  width: 80px;
+  height: 80px;
+}
