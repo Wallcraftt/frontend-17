@@ -9,8 +9,8 @@ firstButton.addEventListener("click", (e)=>{
 const firstImg = document.createElement("img")
 firstImg.scr = 'https://picsum.photos/id/1/200/300'
 
-const addBody = document.querySelector('body')
-addBody.appendChild(firstImg)
+const Body = document.querySelector('body')
+Body.appendChild(firstImg)
 
 // task 3)
 const characters = [
@@ -60,3 +60,20 @@ function renderCharracters (arr){
   div.innerHTML = renderChar.join("")
 }
 renderCharracters()
+
+function firstBtnRemove(arr) {
+	const firstBtn = document.querySelector(".remove")
+	firstBtn.addEventListener("click",(e)=>{
+		firstBtn.remove()
+	})
+	characters = document.querySelector("#characters-list")
+	characters.addEventListener("remove", (e)=>{
+		characters.remove()
+	})
+}
+firstBtnRemove()
+
+
+
+
+
